@@ -1,0 +1,10 @@
+Pipeline
+
+Performs the sequence of different transformations of raw dataset before applying the final estimator
+
+Transformations: 
+- Finding set of features
+- Standardization or Normalization 
+- Generate new features
+- Select good features (feature selection)
+- 

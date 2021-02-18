@@ -1,0 +1,5 @@
+One of the ways to avoid overfitting is cross-validation
+Helps in estimating error over test set, and deciding what
+parameters work best for your model.
+
+Refer to cross-validation to understand how to deal with overfitting with CV

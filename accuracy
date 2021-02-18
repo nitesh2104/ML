@@ -1,0 +1,6 @@
+We can use ConfusionMatrix to predict accuracy
+
+ConfusionMatrix: Total number of correct predictions/ Total number of prediction
+Calculation: Sum of diagonals / Total SUM = Score
+
+

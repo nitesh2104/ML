@@ -1,0 +1,17 @@
+Bias: Average Error of different training sets
+Variance: How sensitive is it to varying training sets
+
+Learning Curve
+Plot against accuracy
+
+Model Complexity Curve
+- Notice if over/underfit
+- Look at the hyperparameters that are causing it
+- Adjust HP by reading the Model Complexity Curve
+- Use GridSearch to Tune HP
+
+Learning rate is itself a hyperparameter
+No baseline metrics are necessary
+
+Follow this link for validation and learing curves:
+https://scikit-learn.org/stable/modules/learning_curve.html

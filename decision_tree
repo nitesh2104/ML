@@ -1,0 +1,4 @@
+Perform pruning on DecisionTree to make it faster
+Max - Depth is a form of pruning, use HP tuning for that. 
+
+

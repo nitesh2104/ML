@@ -1,0 +1,44 @@
+Regularization reduces the variance without increasing bias.
+
+A form of regression, that aims to shrink the coefficient estimates
+to 0.
+I.e it helps in avoiding overfitting. 
+
+Y = C1rX1 + C2X2 + C3X3 + .... CnXn 
+The residual sum of squares should be minimized 
+RSS(loss function) -> minimized
+
+Ridge Regression
+Add a shrinkage quantity. Add ALPHA - tuning parameter that 
+controls the flexibility of the model by penalizing it
+As ALPHA goes to inf => the penalty increases
+As ALPHA goes to 0 => the penalty decreases
+
+The flexibility of the model increases with increase in coeffcients
+So RR helps in shrinking the coefficients
+
+Need to standardize the predictors or bring the predictors to same
+scale before performing ridge regression.
+
+LASSO:
+Here the variation differs by Ridge Regresssion by:
+Mod sum of coeff <=Shrinkage Factor(S)
+Lasso is great when the number of features are large
+
+In RIDGE REgression:
+Sum of coeff squared <=Shrinkage Factor(S)
+
+Shrinkage Factor: Constant that exists from shrinkage quantity ALPHA
+
+One important issue in Ridge Regression is that it never shrinks the predictors to 0
+Lasso can completely remove the coefficients by making them 0
+But RR cant do that.
+
+So the model interpretability is hard to understand in RR.
+
+L1 vs L2 Regularization:
+L1: Lasso
+L2: Ridge Regression
+
+ReLU is Rectified Linear Unit
+Output = Input

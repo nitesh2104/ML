@@ -1,0 +1,27 @@
+MLPClassifier
+To train the neural network
+- Initialize its parameters
+- Initilize the weights randomly, goal is to prevent all neurons from learning the same thing
+- Initialize the bias to 0
+
+Then we proceed to optimization algorithm to minimize the difference between
+actual output and predicted output 
+
+Types:
+Gradient Descent: Is a numeric calculation that allows us to adjust the parameters of a network
+such that its output deviation is minimized.
+
+Stochastic Gradient Descent (SGD)
+Variant of gradient descent
+
+
+Adam: Adaptive Moment Estimation
+
+AdaBound: Adam variant
+Employs dynamic bounds on learning rates to achieve a gradual and 
+smooth transition to SGD
+
+
+L-BGFS
+
+Estimator: Equation for picking the best model(equation) for a given dataset

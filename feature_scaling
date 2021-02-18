@@ -1,0 +1,25 @@
+FEATURE SCALING
+
+Feature scaling - to deal with sensitive data 
+SOme machines are sensitive to feature scaling while others are invariant to it
+
+Models with Gradient Descent require feature scaling 
+
+
+Distance based algorithms: KNN and SVM 
+- Since the algorithms are based on distance, we need to scale them in order to manager the weights
+
+Tree based algorithms are insensitive to feature scaling for example DT. 
+Since its splitting the tree from a single feature at a time, it doesnt care about scaling.
+
+Types: 
+Normalization 
+Standardization
+
+
+Standardization: Uni-mode with deviation offset, centered at mean 
+
+Use normalization when the data does not follow Normal Distribution. Useful in KNN and NN
+Use standardization when the data does follow Normal Distribution. 
+
+

@@ -1,0 +1,42 @@
+Transformers 
+
+Makes use of several methods, i.e different ML Models
+
+Sequence to Sequence Architecture: Neural net that transforms a given sequence of elements, 
+such as the sequence of words in a sentence into another sequence. 
+They are good at translation, where sequence of words from 1 language is transformed into another
+
+The data is SEQUENCED.....
+
+Types of S2S Architecture: 
+- LTSM(Long Short Term Memory): Remembers the important(long term), forgets the un-important(short)
+
+
+Seq2Seq Models consist of Encoder or Decoder. 
+Encoder takes input sequence and maps to higher dimensional space(n-dimensional vector)
+
+That abstract vector is fed into Decoder which outputs a sequence.
+Output can be language, symbols, a copy of the input etc.
+
+Attention: The attention-mechanism looks at a sequence and decides what is important. 
+//TODO Attention-based Neural Machine Translation 
+
+Recurrent Neural  Networks: Legacy way to capture the timely dependencies in sequences. 
+//TODO BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding
+
+Tranformers dont require the sequence to be in order. 
+They can run in parallelization way. And are faster than RNN's
+
+LSTM is older than Transformers.
+GRU is gated recurrent units 
+These old RNN had attention mechanisms.
+
+
+So transformers can be parallelized
+Way faster, so can be run on larger datasets
+This lead to development of BERT and GPT
+GPT is Generative Pre-Trained Transformer
+//TODO GPT Generative Pre-Trained Transformer
+
+Transformers built upon attention mechanisms without RNN's
+Attention Mechanisms are powerful enough to achieve desired results

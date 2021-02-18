@@ -1,0 +1,11 @@
+Do it to avoid overfitting
+
+Use K-Folds and create K sets of train and validation data sets from train sets
+Shuffle the datasets for validation sets and plot the average
+
+Check if the CV is hiding something by analyzing each result
+
+Stratified K_Fold
+returns stratified folds
+It maintains the percentage of samples for each class 
+in every fold. This way the model gets equally distributed for training/test folds
